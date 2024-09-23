@@ -76,7 +76,7 @@ public class QuestionAnswerService {
             JSONObject jsonQuestion = new JSONObject();
             jsonQuestion.put("id", question.getId());
             jsonQuestion.put("question", question.getQuestion());
-            
+
             jsonArray.put(jsonQuestion);
 
             List<Answer> answers = getQuestionAnswers(question.getId());
