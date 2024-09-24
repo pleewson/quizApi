@@ -8,8 +8,6 @@ import lombok.Setter;
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class QuestionDTO {
-
     private Long id;
     private String question;
-
 }
