@@ -10,8 +10,6 @@ import java.util.Map;
 @Setter
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class AnswerDTO {
-
     private Map<String, String> answers;
     private Map<String, Boolean> correct_answers;
-
 }
