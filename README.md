@@ -7,7 +7,9 @@ This is a Spring Boot application that interacts with the Quzi API to fetch quiz
 ## How to Run the Project
 
 1. **Download the project:**
+ ```bash
    git clone git@github.com:pleewson/quizApi.git
+   ```
 
 3. **Open the project in your IDE.**
 
@@ -19,8 +21,9 @@ This is a Spring Boot application that interacts with the Quzi API to fetch quiz
 4.**Fill in the credentials in the application.properties file: Update the database username and password.**
 
 5.**Start the application: You can do this from your IDE or via the terminal:**
+```bash
    mvn spring-boot:run
-
+   ```
 **Go to your browser to verify functionality: Visit http://localhost:8080/question.html to check if the application is working correctly.**
 
 
@@ -44,8 +47,9 @@ To jest aplikacja Spring Boot, która współpracuje z API Quzi, aby pobierać p
 ## Jak uruchomić projekt
 
 1. **Pobierz projekt:**
+ ```bash
    git clone git@github.com:pleewson/quizApi.git
-
+   ```
 2. **Otwórz projekt w swoim IDE.**
 
 3. **Utwórz bazę danych: Możesz użyć tego skryptu:**
@@ -57,8 +61,9 @@ To jest aplikacja Spring Boot, która współpracuje z API Quzi, aby pobierać p
 4. **Uzupełnij dane w pliku application.properties: Zaktualizuj nazwę użytkownika i hasło bazy danych.**
 
 5. **Uruchom aplikację: Możesz to zrobić z IDE lub za pomocą terminala:**
+```bash
    mvn spring-boot:run
-
+   ```
 **Przejdź do przeglądarki, aby zweryfikować funkcjonalność: Odwiedź http://localhost:8080/question.html, aby sprawdzić, czy aplikacja działa poprawnie.**
 
 ## Uwaga dotycząca konfiguracji bazy danych
